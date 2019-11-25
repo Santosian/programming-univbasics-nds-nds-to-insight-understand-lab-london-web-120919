@@ -9,7 +9,9 @@ end
 
 def print_first_directors_movie_titles
   pretty_print_nds(directors_database)
-  
+  dd = 
+  index = 0 
+  while index < directors_database[ind]
 end
 
 
