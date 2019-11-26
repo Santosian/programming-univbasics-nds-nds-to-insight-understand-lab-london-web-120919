@@ -19,12 +19,6 @@ def print_first_directors_movie_titles
   pp dd[0][:movies][4][:title] 
   pp dd[0][:movies][5][:title]
 
-  pp dd[0][:movies][7][:title] 
-  pp dd[0][:movies][8][:title] 
-  pp dd[0][:movies][9][:title] 
-  pp dd[0][:movies][10][:title] 
-  pp dd[0][:movies][11][:title]
-  pp dd[0][:movies][12][:title] 
 
 end
 
