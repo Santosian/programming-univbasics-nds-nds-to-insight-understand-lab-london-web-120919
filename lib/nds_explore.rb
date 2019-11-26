@@ -21,6 +21,7 @@ def print_first_directors_movie_titles
   puts dd[0][:movies][4][:title] 
   puts dd[0][:movies][5][:title]
   
+  
   while idx < ??? do
     puts dd[0][:movies][idx][:title]
     idx += 1 
