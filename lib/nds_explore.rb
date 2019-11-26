@@ -13,6 +13,8 @@ def print_first_directors_movie_titles
   dd = directors_database
 
   pp dd[0][:movies][0][:title]
+  pp dd[0][:movies][0][1]
+  pp dd[0][:movies][0][2]
 
   
 
