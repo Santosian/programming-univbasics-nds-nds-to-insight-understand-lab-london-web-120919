@@ -12,14 +12,12 @@ def print_first_directors_movie_titles
 
   dd = directors_database
 
-  pp dd[0][:movies][0][:title]
-  pp dd[0][:movies][1][:title] 
-  pp dd[0][:movies][2][:title]
-  pp dd[0][:movies][3][:title]
-  pp dd[0][:movies][4][:title] 
-  pp dd[0][:movies][5][:title]
-
-
+  puts dd[0][:movies][0][:title]
+  puts dd[0][:movies][1][:title] 
+  puts dd[0][:movies][2][:title]
+  puts dd[0][:movies][3][:title]
+  puts dd[0][:movies][4][:title] 
+  puts dd[0][:movies][5][:title]
 end
 
 =begin
