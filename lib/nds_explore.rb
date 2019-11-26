@@ -14,11 +14,8 @@ def print_first_directors_movie_titles
   index = 0
  
   while index < dd[0][1][0][0]
-  
   pp dd[0][:movies][0][:title]
-  
   index += 1
-  
   end
   
 
