@@ -25,10 +25,14 @@ def print_first_directors_movie_titles
   puts dd[0][:movies][5][:title]
   puts dd[0][:movies][6][:title]
   
+
+  #dd[0][:movies] es el array de peliculas
+  dd[0][:movies].count # <- que valor tiene esto
+  
 =end
-  dd[0][:movies]<-.count
+
   idx = 0
-  while idx < 6 do
+  while idx < dd[0][:movies].count do
     puts dd[0][:movies][idx][:title]
     idx += 1 
   end
