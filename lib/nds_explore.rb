@@ -11,13 +11,15 @@ def print_first_directors_movie_titles
   # pretty_print_nds(directors_database)
 
   dd = directors_database
-
+  index = 0
   puts dd[0][:movies][0][:title]
   puts dd[0][:movies][1][:title] 
   puts dd[0][:movies][2][:title]
   puts dd[0][:movies][3][:title]
   puts dd[0][:movies][4][:title] 
   puts dd[0][:movies][5][:title]
+  
+  while index < 
 end
 
 =begin
