@@ -12,6 +12,8 @@ def print_first_directors_movie_titles
 
   dd = directors_database
   idx = 0
+  
+=begin
   puts dd[0][:movies][idx][:title]
   idx += 1
   puts dd[0][:movies][idx][:title]
@@ -20,9 +22,10 @@ def print_first_directors_movie_titles
   puts dd[0][:movies][3][:title]
   puts dd[0][:movies][4][:title] 
   puts dd[0][:movies][5][:title]
-  puts dd[0][:movies][6][:title]
+  puts dd[0][:movies])[6][:title]
+=end
   
-  while idx < ??? do
+  while idx < 6 do
     puts dd[0][:movies][idx][:title]
     idx += 1 
   end
