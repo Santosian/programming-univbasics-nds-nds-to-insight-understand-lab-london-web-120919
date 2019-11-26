@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   # pretty_print_nds(directors_database)
 
   dd = directors_database
-  idx = 0
+
   
 =begin
 
