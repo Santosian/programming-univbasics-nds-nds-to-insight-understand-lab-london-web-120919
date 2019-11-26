@@ -26,7 +26,7 @@ def print_first_directors_movie_titles
   puts dd[0][:movies][6][:title]
   
 =end
-  dd[0][:movies].co
+  dd[0][:movies]<-.count
   idx = 0
   while idx < 6 do
     puts dd[0][:movies][idx][:title]
