@@ -9,21 +9,25 @@ end
 
 def print_first_directors_movie_titles
   # pretty_print_nds(directors_database)
-  
+
   dd = directors_database
   index = 0
-  pp dd
-  pp dd[0]
-  pp dd[0][:name]
+  
   pp dd[0][:movies][0][:title]
 end
 
 
-=begin
+
 
   while index < dd[]
     puts dd[index][:movies][0][:title]
   end
+  
+=begin
+
+  pp dd
+  pp dd[0]
+  pp dd[0][:name]
   
 =end
 
