@@ -14,13 +14,18 @@ def print_first_directors_movie_titles
   idx = 0
   puts dd[0][:movies][idx][:title]
   idx += 1
-  puts dd[0][:movies][1][:title] 
-  puts dd[0][:movies][2][:title]
+  puts dd[0][:movies][idx][:title]
+  idx += 1
+  puts dd[0][:movies][idx][:title]
   puts dd[0][:movies][3][:title]
   puts dd[0][:movies][4][:title] 
   puts dd[0][:movies][5][:title]
   
-  while index < 
+  while idx < ??? do
+    puts dd[0][:movies][idx][:title]
+    idx += 1 
+  end
+  
 end
 
 =begin
