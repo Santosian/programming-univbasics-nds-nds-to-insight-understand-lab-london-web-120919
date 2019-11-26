@@ -13,9 +13,11 @@ def print_first_directors_movie_titles
   dd = directors_database
   index = 0
  
-  pp dd[0][:movies][0][:title]
-  while index < dd[]
+  while index < dd[0][:movies][0][:title]
+  
   end
+  
+   pp dd[0][:movies][0][:title]
   
 end
 =begin
